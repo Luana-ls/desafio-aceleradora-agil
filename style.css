@@ -1,0 +1,110 @@
+* {
+    margin: 0; 
+    padding: 0;
+    outline: 0;
+  
+}
+h1{
+    text-align: center;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(248, 241, 179);
+   
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.container-descricao {
+    flex: 1;
+    padding-right: 20px;
+    margin-right: 2.5rem;
+}
+.container-descricao  ul,li{
+    margin-top: 1rem;
+  
+}
+
+.container-descricao img {
+    width: 100px;
+    box-shadow: 5px 5px 10px rgba(8, 7, 7, 0.5);
+}
+
+
+.container-tarefas {
+    border: 2px solid black;
+    border-radius: 10px;
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+    background-color: rgb(245, 211, 240);
+}
+
+
+.lista-tarefas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+   
+}
+.tarefas{
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20re; 
+   
+
+}
+
+.linha{
+    border-left: 2px solid rgb(36, 31, 34);
+    height: 10vh; 
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.button-send {
+    transition: background-color 0.5s ease;
+    border-radius: 0.5rem;
+    padding: 5px;
+    size: 5rem;
+   margin-top: 0.5rem;
+    border:none;
+    font-size:1rem;
+   
+}
+
+.button-send:hover {
+    background-color: #4CAF50;
+}
+
+#tarefaDia, #tarefaNoite{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.5rem;
+    width: 13rem;
+    border-radius: 1rem;
+    background-color: rgb(244, 247, 247);
+    margin-right: 10px;
+    margin-top: 0.5rem;    
+}
+
+

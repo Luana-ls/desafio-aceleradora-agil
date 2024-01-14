@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Dancing+Script:wght@400;500;600&family=Roboto&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="container-descricao">
+            <img src="img/menina.png" alt="foto" width="100px">
+            <h2>Luana Silva</h2>
+    
+            <p>Graduanda em Ciência da Computação</p>
+            <ul>
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+                <li><a href="#">Link4</a></li>
+            </ul>
+        </div>
+       
+        <div class="container-tarefas">
+            <h1>Lista de Tarefas</h1>
+            <div class="lista-tarefas">
+                <div class="tarefas">
+                    <h2>Dia</h2>
+
+                    <input type="text" id="tarefaDia" placeholder="Digite sua tarefa : ">
+                    <button  class="button-send" id="adicionar">Adicionar</button>
+                    <ul id="dia"></ul>
+                </div>
+
+                <div class="linha"></div>
+                <div class="tarefas">
+                    <h2>Noite</h2>
+                    <input type="text" id="tarefaNoite" placeholder="Digite sua tarefa: ">
+                    <button  class="button-send"id="adicionar2"">Adicionar</button>
+                    <ul id="noite"></ul>
+   
+                </div>     
+            </div>
+        </div>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
